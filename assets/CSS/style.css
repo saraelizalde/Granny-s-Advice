@@ -16,7 +16,19 @@
 
 /* Global styling */
 body {
+    
     font-family: var(--primary-font);
+}
+
+#header,
+#categories {
+    max-width: 90%;
+    margin: 0 auto;
+    border-radius: 12px;
+    /*Round corners*/
+    background-color: var(--vert);
+    padding-bottom: 2rem;
+    padding-top: 1rem;
 }
 
 
@@ -36,11 +48,34 @@ body {
 
 
 /* Header */
+#header{
+    margin-top: 20px;
+  }
+
 #header img {
     max-width: 100%;
     height: auto;
-  }
+}
 
-  #header h1 {
+#header h1 {
     font-family: var(--secondary-font);
-  }
+}
+
+
+
+
+
+/* Categories */
+.card {
+    width: 18rem;
+    padding-top: 12px;
+}
+
+
+
+/* Footer */
+
+
+
+
+/* Media query */
