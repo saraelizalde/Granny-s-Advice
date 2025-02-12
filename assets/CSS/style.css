@@ -74,7 +74,10 @@ body {
 
 
 /* Footer */
-
+footer {
+    background-color: var(--baby-pink);
+    padding: 3rem;
+  }
 
 
 
