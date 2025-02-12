@@ -13,9 +13,14 @@
 }
 
 
+
+/* Global styling */
 body {
     font-family: var(--primary-font);
 }
+
+
+
 
 
 /* Navigation */
@@ -26,3 +31,16 @@ body {
 .navbar-brand {
     font-family: var(--secondary-font);
 }
+
+
+
+
+/* Header */
+#header img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #header h1 {
+    font-family: var(--secondary-font);
+  }
