@@ -1,0 +1,28 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Pinyon+Script&family=Playwrite+CA+Guides&family=Rochester&display=swap');
+
+/* CSS Variables */
+:root {
+    --primary-font: "Libre Caslon Display", serif;
+    --secondary-font: "Pinyon Script", serif;
+    --baby-pink: #e3c0c6;
+    --darker-pink: #B15C83;
+    --beige: #d8b5a7;
+    --vert: #9dc2a3;
+    --white: white;
+}
+
+
+body {
+    font-family: var(--primary-font);
+}
+
+
+/* Navigation */
+#navigation {
+    background-color: var(--baby-pink);
+}
+
+.navbar-brand {
+    font-family: var(--secondary-font);
+}
