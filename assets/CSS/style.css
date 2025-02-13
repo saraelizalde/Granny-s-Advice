@@ -45,6 +45,7 @@ body {
 /* Navigation */
 #navigation {
     background-color: var(--baby-pink);
+    /* padding: 0px ; Might be too thick */
 }
 
 .navbar-brand {
@@ -62,6 +63,7 @@ body {
 #header img {
     max-width: 100%;
     height: auto;
+    border-radius: 12px; /*round corners*/
 }
 
 #header h1 {
@@ -81,13 +83,15 @@ body {
 
 /* Categories */
 .card {
-    width: 18rem;
+    max-width: 17rem;
     padding-top: 12px;
+    border-radius: 12px; /*round corners*/
 }
 
 .card-img-top {
     height: 200px;
     object-fit: cover;
+    border-radius: 12px; /*round corners*/
 }
 
 .card a {
@@ -107,7 +111,7 @@ body {
 /* Footer */
 footer {
     background-color: var(--baby-pink);
-    padding: 3rem;
+    padding: 2rem;
 }
 
 #footer a {
