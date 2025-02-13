@@ -61,7 +61,14 @@ body {
     font-family: var(--secondary-font);
 }
 
+#header a{
+    color: var(--white);
+  }
 
+  #header a:hover{
+    color: var(--darker-pink);
+  }
+  
 
 
 
@@ -71,6 +78,18 @@ body {
     padding-top: 12px;
 }
 
+.card a{
+    background-color: var(--baby-pink);
+    border-color: var(--darker-pink);
+    color: var(--darker-pink);
+  }
+
+  .card a:hover{
+    background-color: var(--darker-pink);
+    border-color: var(--darker-pink);
+    color: var(--baby-pink);
+  }
+
 
 
 /* Footer */
@@ -79,6 +98,24 @@ footer {
     padding: 3rem;
   }
 
+  #footer a{
+    color: var(--darker-pink);
+  }
+  
+  #footer a:hover{
+    color: white;
+  }
+  
+
 
 
 /* Media query */
+
+@media (min-width: 768px) {
+
+    #categories,
+    #header {
+      max-width: 70%;
+      /* More narrow on larger screens to show more background*/
+    }
+  }
