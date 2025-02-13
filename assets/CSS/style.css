@@ -27,8 +27,7 @@ body {
     overflow-x: hidden;
 }
 
-#header,
-#categories {
+.section {
     max-width: 90%;
     margin: 0 auto;
     border-radius: 12px;
@@ -60,23 +59,25 @@ body {
     margin-top: 20px;
 }
 
-#header img {
+header img {
     max-width: 100%;
     height: auto;
     border-radius: 12px; /*round corners*/
 }
 
-#header h1 {
+header h1 {
     font-family: var(--secondary-font);
 }
 
-#header a {
+header a {
     color: var(--white);
 }
 
-#header a:hover {
+header a:hover {
     color: var(--darker-pink);
 }
+
+
 
 
 
@@ -128,8 +129,7 @@ footer {
 /* Media query */
 @media (min-width: 768px) {
 
-    #categories,
-    #header {
+    .section {
         max-width: 70%;
         /* More narrow on larger screens to show more background*/
     }
