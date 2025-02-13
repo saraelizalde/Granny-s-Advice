@@ -16,8 +16,15 @@
 
 /* Global styling */
 body {
-    
     font-family: var(--primary-font);
+    background-image: url(../images/background-flowers.jpg);
+    background-size: cover;
+    /*to make sure the background image is not too big*/
+    background-repeat: repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 #header,
@@ -48,9 +55,9 @@ body {
 
 
 /* Header */
-#header{
+#header {
     margin-top: 20px;
-  }
+}
 
 #header img {
     max-width: 100%;
@@ -61,14 +68,14 @@ body {
     font-family: var(--secondary-font);
 }
 
-#header a{
+#header a {
     color: var(--white);
-  }
+}
 
-  #header a:hover{
+#header a:hover {
     color: var(--darker-pink);
-  }
-  
+}
+
 
 
 
@@ -78,17 +85,22 @@ body {
     padding-top: 12px;
 }
 
-.card a{
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card a {
     background-color: var(--baby-pink);
     border-color: var(--darker-pink);
     color: var(--darker-pink);
-  }
+}
 
-  .card a:hover{
+.card a:hover {
     background-color: var(--darker-pink);
     border-color: var(--darker-pink);
     color: var(--baby-pink);
-  }
+}
 
 
 
@@ -96,26 +108,25 @@ body {
 footer {
     background-color: var(--baby-pink);
     padding: 3rem;
-  }
+}
 
-  #footer a{
+#footer a {
     color: var(--darker-pink);
-  }
-  
-  #footer a:hover{
+}
+
+#footer a:hover {
     color: white;
-  }
-  
+}
+
 
 
 
 /* Media query */
-
 @media (min-width: 768px) {
 
     #categories,
     #header {
-      max-width: 70%;
-      /* More narrow on larger screens to show more background*/
+        max-width: 70%;
+        /* More narrow on larger screens to show more background*/
     }
-  }
+}
