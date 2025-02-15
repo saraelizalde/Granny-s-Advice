@@ -37,6 +37,14 @@ body {
     padding-top: 1rem;
 }
 
+.section a {
+    color: var(--white);
+}
+
+.section a:hover {
+    color: var(--darker-pink);
+}
+
 
 
 
@@ -69,13 +77,6 @@ header h1 {
     font-family: var(--secondary-font);
 }
 
-header a {
-    color: var(--white);
-}
-
-header a:hover {
-    color: var(--darker-pink);
-}
 
 
 
@@ -89,24 +90,39 @@ header a:hover {
     border-radius: 12px; /*round corners*/
 }
 
+.card .btn {
+    width: auto; /* Only as wide as the text */
+    align-self: center; /* Centers the button horizontally */
+}
+
 .card-img-top {
     height: 200px;
     object-fit: cover;
     border-radius: 12px; /*round corners*/
 }
 
-.card a {
+.card .card-body a {
     background-color: var(--baby-pink);
     border-color: var(--darker-pink);
     color: var(--darker-pink);
 }
 
-.card a:hover {
+.card .card-body a:hover {
     background-color: var(--darker-pink);
     border-color: var(--darker-pink);
     color: var(--baby-pink);
 }
 
+
+/*Recipes*/
+
+.section a {
+    color: var(--white);
+}
+
+.section a:hover {
+    color: var(--darker-pink);
+}
 
 
 /* Footer */
