@@ -27,6 +27,11 @@ body {
     overflow-x: hidden;
 }
 
+p,
+a {
+    font-size: 1.1rem;
+}
+
 .section {
     max-width: 90%;
     margin: 0 auto;
@@ -52,12 +57,15 @@ body {
 /* Navigation */
 #navigation {
     background-color: var(--baby-pink);
-    /* padding: 0px ; Might be too thick */
+    padding: 0px;
+    /*if too thick */
 }
 
 .navbar-brand {
     font-family: var(--secondary-font);
+    font-size: 1.6rem;
 }
+
 
 
 
@@ -70,7 +78,8 @@ body {
 header img {
     max-width: 100%;
     height: auto;
-    border-radius: 12px; /*round corners*/
+    border-radius: 12px;
+    /*round corners*/
 }
 
 header h1 {
@@ -87,18 +96,22 @@ header h1 {
 .card {
     max-width: 17rem;
     padding-top: 12px;
-    border-radius: 12px; /*round corners*/
+    border-radius: 12px;
+    /*round corners*/
 }
 
 .card .btn {
-    width: auto; /* Only as wide as the text */
-    align-self: center; /* Centers the button horizontally */
+    width: auto;
+    /* Only as wide as the text */
+    align-self: center;
+    /* Centers the button horizontally */
 }
 
 .card-img-top {
     height: 200px;
     object-fit: cover;
-    border-radius: 12px; /*round corners*/
+    border-radius: 12px;
+    /*round corners*/
 }
 
 .card .card-body a {
@@ -114,7 +127,10 @@ header h1 {
 }
 
 
-/*Recipes*/
+
+
+
+/*Recipes List*/
 
 .section a {
     color: var(--white);
@@ -123,6 +139,10 @@ header h1 {
 .section a:hover {
     color: var(--darker-pink);
 }
+
+
+
+
 
 
 /* Footer */
@@ -138,6 +158,7 @@ footer {
 #footer a:hover {
     color: white;
 }
+
 
 
 
