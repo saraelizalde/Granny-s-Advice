@@ -114,13 +114,25 @@ header h1 {
     /*round corners*/
 }
 
-.card .card-body a {
+.card .card-body a{
     background-color: var(--baby-pink);
     border-color: var(--darker-pink);
     color: var(--darker-pink);
 }
 
-.card .card-body a:hover {
+.card .card-body a:hover{
+    background-color: var(--darker-pink);
+    border-color: var(--darker-pink);
+    color: var(--baby-pink);
+}
+
+.card button{
+    background-color: var(--baby-pink);
+    border-color: var(--darker-pink);
+    color: var(--darker-pink);
+}
+
+.card button:hover{
     background-color: var(--darker-pink);
     border-color: var(--darker-pink);
     color: var(--baby-pink);
