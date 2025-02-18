@@ -7,7 +7,7 @@
     --secondary-font: "Pinyon Script", serif;
     --baby-pink: #e3c0c6;
     --darker-pink: #B15C83;
-    --beige: #d8b5a7;
+    --beige: #ecdbd5;
     --vert: #9dc2a3;
     --white: white;
 }
@@ -18,7 +18,7 @@
 body {
     font-family: var(--primary-font);
     background-image: url(../images/background-flowers.jpg);
-    background-size: cover;
+    background-size: contain;
     /*to make sure the background image is not too big*/
     background-repeat: repeat;
     background-attachment: fixed;
