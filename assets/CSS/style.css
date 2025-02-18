@@ -142,15 +142,9 @@ header h1 {
 
 
 
-/*Recipes List*/
+/*Recipes Page*/
 
-.section a {
-    color: var(--white);
-}
 
-.section a:hover {
-    color: var(--darker-pink);
-}
 
 
 
