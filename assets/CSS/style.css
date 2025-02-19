@@ -61,7 +61,7 @@ a {
     /*if too thick */
 }
 
-#navigation a{
+#navigation a {
     font-size: larger;
 }
 
@@ -118,31 +118,36 @@ header h1 {
     /*round corners*/
 }
 
-.card .card-body a{
+.card .card-body a {
     background-color: var(--baby-pink);
     border-color: var(--darker-pink);
     color: var(--darker-pink);
 }
 
-.card .card-body a:hover{
+.card .card-body a:hover {
     background-color: var(--darker-pink);
     border-color: var(--darker-pink);
     color: var(--baby-pink);
 }
 
-.card button{
+.card button {
     background-color: var(--baby-pink);
     border-color: var(--darker-pink);
     color: var(--darker-pink);
 }
 
-.card button:hover{
+.card button:hover {
     background-color: var(--darker-pink);
     border-color: var(--darker-pink);
     color: var(--baby-pink);
 }
 
 
+
+/*Follow us*/
+#follow-us .display-2 {
+    color: var(--white);
+}
 
 
 
@@ -169,7 +174,7 @@ footer {
     color: white;
 }
 
-#footer p{
+#footer p {
     font-size: large;
     color: var(--darker-pink);
 }
