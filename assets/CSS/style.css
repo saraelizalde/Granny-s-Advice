@@ -61,9 +61,13 @@ a {
     /*if too thick */
 }
 
-.navbar-brand {
+#navigation a{
+    font-size: larger;
+}
+
+#navigation .navbar-brand {
     font-family: var(--secondary-font);
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 
 
