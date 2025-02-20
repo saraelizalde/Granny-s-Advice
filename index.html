@@ -203,27 +203,46 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
-    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links and to enable smooth scrolling and collapse navbar -->
     <script>
-        document
-            .querySelectorAll(".navbar-collapse .nav-link")
-            .forEach((link) => {
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll(".nav-link").forEach((link) => {
                 link.addEventListener("click", function (e) {
-                    let section = document.querySelector(e.target.getAttribute("href"));
-                    if (section) {
-                        e.preventDefault(); // Prevent default anchor click behavior
-                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
-                        window.scroll({
-                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
-                            behavior: "smooth",
-                        });
-                        document
-                            .querySelector(".navbar-collapse")
-                            .classList.remove("show"); // Collapse navbar
+                    let targetId = this.getAttribute("href");
+
+                    if (targetId.startsWith("#")) {
+                        e.preventDefault(); // Prevent default jump
+
+                        let section = document.querySelector(targetId);
+                        if (section) {
+                            let navbarHeight = document.querySelector(".navbar").offsetHeight;
+                            let offsetTop = section.offsetTop - navbarHeight;
+
+                            // Smooth scroll
+                            window.scrollTo({
+                                top: offsetTop,
+                                behavior: "smooth",
+                            });
+
+                            // Close the navbar on mobile
+                            let navbarCollapse = document.querySelector(".navbar-collapse");
+                            if (navbarCollapse.classList.contains("show")) {
+                                let bsCollapse = new bootstrap.Collapse(navbarCollapse, {
+                                    toggle: true,
+                                });
+                            }
+                        }
                     }
                 });
             });
+        });
     </script>
+
+
+
+
+
+
 </body>
 
 </html>

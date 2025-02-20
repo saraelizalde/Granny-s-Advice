@@ -13,6 +13,7 @@
 
 
 
+
 /* Global styling */
 body {
     font-family: var(--primary-font);
@@ -55,6 +56,7 @@ a {
 
 
 
+
 /* Navigation */
 #navigation {
     background-color: var(--baby-pink);
@@ -69,6 +71,7 @@ a {
     font-family: var(--secondary-font);
     font-size: 1.8rem;
 }
+
 
 
 
@@ -155,9 +158,6 @@ header h2 {
 #categories {
     padding-top: 15px;
     margin-top: 1.5rem;
-    scroll-margin-top: 200px;
-    /*So the navbar doesn't hide the h2*/
-
 }
 
 
