@@ -104,10 +104,11 @@ header h3{
 /* Categories */
 .card {
     max-width: 17rem;
-    padding-top: 12px;
+    padding: 0px;
     border-radius: 12px;
     /*round corners*/
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    overflow: hidden;
 }
 
 .card h3{
@@ -124,8 +125,6 @@ header h3{
 .card-img-top {
     height: 200px;
     object-fit: cover;
-    border-radius: 12px;
-    /*round corners*/
 }
 
 .card .card-body a {
@@ -153,9 +152,14 @@ header h3{
 }
 
 #categories{
-    padding-top: 2.3rem; /*so the nav bar doesn't hide the title of the section*/
-    margin-top: 2rem; 
+    padding-top: 15px;
+    margin-top: 1.5rem; 
+    scroll-margin-top: 600px; /*So the navbar doesn't hide the h2*/
+    
 }
+
+
+
 
 
 
