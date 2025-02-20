@@ -90,7 +90,7 @@
                         <img src="assets/images/soup-recipe.jpg" class="card-img-top"
                             alt="A red pot with carrots, onions and herbs on a board being cut">
                         <div class="card-body">
-                            <h5 class="card-title">Granny's soup</h5>
+                            <h3 class="card-title">Granny's soup</h3>
                             <p class="card-text">We never think of soup but we love soup! Here is the perfect sweater
                                 weather meal!</p>
                             <!-- Collapse button -->
@@ -127,7 +127,7 @@
                         <img src="assets/images/mustard-sauce.jpg" class="card-img-top"
                             alt="Creamy mustard sauce served on meat and pasta">
                         <div class="card-body">
-                            <h5 class="card-title">Creamy Mustard Sauce</h5>
+                            <h3 class="card-title">Creamy Mustard Sauce</h3>
                             <p class="card-text">The one thing that can save your meal is your sauce! And mustard isn't
                                 just for hot dogs! </p>
                             <!-- Collapse button -->
@@ -168,7 +168,7 @@
                         <img src="assets/images/rustic-tart.jpg" class="card-img-top"
                             alt="A slice of a tart in a plate with a fork">
                         <div class="card-body">
-                            <h5 class="card-title">Rustic Jam Tart</h5>
+                            <h3 class="card-title">Rustic Jam Tart</h3>
                             <p class="card-text">We all deserve a treat sometimes, and a tart is the most lovely treat
                                 in the planet!</p>
                             <!-- Collapse button -->
@@ -207,7 +207,7 @@
                         <img src="assets/images/potato-sausage.png" class="card-img-top"
                             alt="Potatoes and sausage served in a plate">
                         <div class="card-body">
-                            <h5 class="card-title">One-Pan Creamy Garlic Potato & Sausage Skillet</h5>
+                            <h3 class="card-title">One-Pan Creamy Garlic Potato & Sausage Skillet</h3>
                             <p class="card-text">A hearty, easy meal using simple ingredients, perfect for a cozy lunch
                                 or dinner!</p>
                             <!-- Collapse button -->
@@ -252,7 +252,7 @@
                         <img src="assets/images/tomato-egg.jpg" class="card-img-top"
                             alt="Scrambled eggs with tomatoes on the side">
                         <div class="card-body">
-                            <h5 class="card-title">15 min Tomato & Egg Scramble</h5>
+                            <h3 class="card-title">15 min Tomato & Egg Scramble</h3>
                             <p class="card-text">A simple but flavorful dish perfect for breakfast, lunch, or a light
                                 dinner. Ready in no time!</p>
                             <!-- Collapse button -->
@@ -345,27 +345,27 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
-        <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
-<script>
-    document
-        .querySelectorAll(".navbar-collapse .nav-link")
-        .forEach((link) => {
-            link.addEventListener("click", function (e) {
-                let section = document.querySelector(e.target.getAttribute("href"));
-                if (section) {
-                    e.preventDefault(); // Prevent default anchor click behavior
-                    let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
-                    window.scroll({
-                        top: section.offsetTop - navbarHeight, // Adjust for navbar height
-                        behavior: "smooth",
-                    });
-                    document
-                        .querySelector(".navbar-collapse")
-                        .classList.remove("show"); // Collapse navbar
-                }
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <script>
+        document
+            .querySelectorAll(".navbar-collapse .nav-link")
+            .forEach((link) => {
+                link.addEventListener("click", function (e) {
+                    let section = document.querySelector(e.target.getAttribute("href"));
+                    if (section) {
+                        e.preventDefault(); // Prevent default anchor click behavior
+                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                        window.scroll({
+                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                            behavior: "smooth",
+                        });
+                        document
+                            .querySelector(".navbar-collapse")
+                            .classList.remove("show"); // Collapse navbar
+                    }
+                });
             });
-        });
-</script>
+    </script>
 </body>
 
 </html>

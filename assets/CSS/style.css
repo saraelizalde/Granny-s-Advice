@@ -6,10 +6,10 @@
     --primary-font: "Libre Caslon Display", serif;
     --secondary-font: "Pinyon Script", serif;
     --baby-pink: #e3c0c6;
-    --darker-pink: #B15C83;
-    --beige: #ecdbd5;
+    --darker-pink: #90285e;
+    --white: #ffffff;
     --vert: #9dc2a3;
-    --white: white;
+    
 }
 
 
@@ -37,18 +37,18 @@ a {
     margin: 0 auto;
     border-radius: 12px;
     /*Round corners*/
-    background-color: var(--vert);
+    background-color: var(--white);
     padding-bottom: 2rem;
     padding-top: 1rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 .section a {
-    color: var(--white);
+    color: var(--darker-pink);
 }
 
 .section a:hover {
-    color: var(--darker-pink);
+    color: var(--vert);
 }
 
 
@@ -91,6 +91,10 @@ header h1 {
     font-family: var(--secondary-font);
 }
 
+header h3{
+    font-size: large;
+}
+
 
 
 
@@ -104,6 +108,10 @@ header h1 {
     border-radius: 12px;
     /*round corners*/
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.card h3{
+    font-size: large;
 }
 
 .card .btn {
@@ -155,7 +163,7 @@ header h1 {
 
 /*Follow us*/
 #follow-us .display-2 {
-    color: var(--white);
+    color: var(--darker-pink);
 }
 
 
