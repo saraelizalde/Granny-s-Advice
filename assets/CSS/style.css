@@ -1,3 +1,4 @@
+
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Pinyon+Script&family=Playwrite+CA+Guides&family=Rochester&display=swap');
 
@@ -8,8 +9,7 @@
     --baby-pink: #e3c0c6;
     --darker-pink: #90285e;
     --white: #ffffff;
-    --vert: #9dc2a3;
-    
+    --vert: #9dc2a3;   
 }
 
 
@@ -18,8 +18,7 @@
 body {
     font-family: var(--primary-font);
     background-image: url(../images/background-flowers.jpg);
-    background-size: contain;
-    /*to make sure the background image is not too big*/
+    background-size: contain; /*to make sure the background image is not too big*/
     background-repeat: repeat;
     background-attachment: fixed;
     margin: 0;
@@ -35,12 +34,12 @@ a {
 .section {
     max-width: 90%;
     margin: 0 auto;
-    border-radius: 12px;
-    /*Round corners*/
+    border-radius: 12px; /*Round corners*/
     background-color: var(--white);
     padding-bottom: 2rem;
     padding-top: 1rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 .section a {
@@ -59,7 +58,6 @@ a {
 #navigation {
     background-color: var(--baby-pink);
     padding: 0px;
-    /*if too thick */
 }
 
 #navigation a {
@@ -83,8 +81,7 @@ a {
 header img {
     max-width: 100%;
     height: auto;
-    border-radius: 12px;
-    /*round corners*/
+    border-radius: 12px; /*round corners*/
 }
 
 header h1 {
@@ -105,9 +102,9 @@ header h2{
 .card {
     max-width: 17rem;
     padding: 0px;
-    border-radius: 12px;
-    /*round corners*/
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    border-radius: 12px; /*round corners*/
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     overflow: hidden;
 }
 
@@ -117,14 +114,15 @@ header h2{
 
 .card .btn {
     width: auto;
-    /* Only as wide as the text */
-    align-self: center;
-    /* Centers the button horizontally */
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
 }
 
 .card-img-top {
     height: 200px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 .card .card-body a {
@@ -154,7 +152,7 @@ header h2{
 #categories{
     padding-top: 15px;
     margin-top: 1.5rem; 
-    scroll-margin-top: 600px; /*So the navbar doesn't hide the h2*/
+    scroll-margin-top: 200px; /*So the navbar doesn't hide the h2*/
     
 }
 
@@ -169,6 +167,9 @@ header h2{
 #follow-us .display-2 {
     color: var(--darker-pink);
 }
+
+
+
 
 
 
