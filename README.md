@@ -8,12 +8,14 @@ The design of the website blends modern, user-friendly navigation with nostalgic
 ## Laptop
 <img src="assets/images/images-readme/laptop-header.png" alt="Alt text" width="200">
 <img src="assets/images/images-readme/laptop-categories.png" alt="Alt text" width="200">
-<img src="assets/images/images-readme/laptop-follow-us-and-footer.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/laptop-follow-us.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/laptop-footer.png" alt="Alt text" width="200">
 
 ## Tablet
 <img src="assets/images/images-readme/tablet-header.png" alt="Alt text" width="200">
 <img src="assets/images/images-readme/tablet-categories.png" alt="Alt text" width="200">
-<img src="assets/images/images-readme/tablet-follow-us-footer.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/tablet-follow-us.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/tablet-footer.png" alt="Alt text" width="200">
 
 ## Small Device
 <img src="assets/images/images-readme/small-device-header.png" alt="Alt text" width="200">
@@ -79,7 +81,7 @@ The design logic of this website was based on the most popular responses from ou
 ## How to View the Project
 - [View the deployed website] https://saraelizalde.github.io/Granny-s-Advice/
 
-##
+## Process
 
 ## Credits
 - The JavaScript code for ensuring the Bootstrap mobile navbar collapses when navigating to in-page links comes from Code Institute.
