@@ -5,6 +5,25 @@ Granny's Advice is a website that provides timeless, heartfelt advice from Grann
 
 The design of the website blends modern, user-friendly navigation with nostalgic, cozy aesthetics that evoke the feeling of visiting a grandmother's home.
 
+## Laptop
+<img src="assets/images/images-readme/laptop-header.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/laptop-categories.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/laptop-follow-us-and-footer.png" alt="Alt text" width="200">
+
+## Tablet
+<img src="assets/images/images-readme/tablet-header.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/tablet-categories.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/tablet-follow-us-footer.png" alt="Alt text" width="200">
+
+## Small Device
+<img src="assets/images/images-readme/small-device-header.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/small-device-categories.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/small-device-follow-us.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/small-device-footer.png" alt="Alt text" width="200">
+
+
+
+
 ## Business Goal
 The primary business goal of Granny's Advice is to increase social media traffic. By encouraging users to engage with the website’s content and follow us on social media thanks to call to actions. The website will strategically use keywords to make it easier for people to find the content they need, whether searching for life tips or simply enjoying a nostalgic escape. In the future, we plan to implement monetization strategies such as advertisements or prenium content.
 
@@ -19,12 +38,29 @@ The target audience for Granny's Advice primarily consists of young adults betwe
 ## User intervew
 The design logic of this website was based on the most popular responses from our user interview. These insights guided us in choosing the preferred layout, emotional triggers, and visual elements (such as colors and patterns) that evoke memories of their grandmothers. Additionally, it helped us determine the content that would be most useful and appealing, attracting visitors to our site.
 
+<img src="assets/images/images-readme/user-interview-1.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/user-interview-2.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/user-interview-3.png" alt="Alt text" width="200">
+
 ## Features
 1. Navigation: A simple and intuitive navigation menu to help the user navigate the website.
+<img src="assets/images/images-readme/navbar-laptop.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/navbar-collapsed.png" alt="Alt text" width="200">
 2. Welcome Section: A section with an introductory message offering a warm welcome and setting the tone for the advice that follows.
+<img src="assets/images/images-readme/header-top.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/header-bottom.png" alt="Alt text" width="200">
 3. Category Section: Various advice categories such as Health, Recipes, Cleaning, and Building a Home. Each category links to a separate page with more detailed tips.
+
+<img src="assets/images/images-readme/categories-top.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/categories-bottom.png" alt="Alt text" width="200">
+
 4. Follow Us Section: Explains the benefits of following Granny on social media.
+
+<img src="assets/images/images-readme/follow-us.png" alt="Alt text" width="200">
+
 5. Contact Us Footer: Provides contact details and social media links for users to get in touch with Granny, ask questions, or seek advice.
+<img src="assets/images/images-readme/footer.png" alt="Alt text" width="200">
+
 
 ## Futur features 
 1. Newsletter Subscription: A "Join my newsletter" option for users to receive extra content.

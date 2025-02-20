@@ -20,7 +20,7 @@ body {
     background-image: url(../images/background-flowers.jpg);
     background-size: contain;
     /*to make sure the background image is not too big*/
-    background-repeat: repeat;
+    background-repeat: round;
     background-attachment: fixed;
     margin: 0;
     padding: 0;
@@ -61,6 +61,7 @@ a {
 #navigation {
     background-color: var(--baby-pink);
     padding: 0px;
+    border-bottom: 1px solid #450029 ;
 }
 
 #navigation a {
@@ -71,6 +72,8 @@ a {
     font-family: var(--secondary-font);
     font-size: 1.8rem;
 }
+
+
 
 
 
@@ -192,6 +195,7 @@ header h2 {
 footer {
     background-color: var(--baby-pink);
     padding: 2rem;
+    border-top: 1px solid #450029 ;
 }
 
 #footer a {
