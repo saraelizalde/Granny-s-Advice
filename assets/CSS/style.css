@@ -187,6 +187,18 @@ header h2 {
 
 
 
+/*Cleaning page*/
+
+#header-cleaning{
+    margin-top: 20px;
+}
+
+#header-cleaning .row{
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 
 
 
