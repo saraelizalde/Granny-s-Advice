@@ -64,6 +64,30 @@ The design logic of this website was based on the most popular responses from ou
 <img src="assets/images/images-readme/footer.png" alt="Alt text" width="200">
 
 
+## All the pages
+- The Home page seen above.
+- recipes.html
+
+<img src="assets/images/images-readme/recipes.1.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/recipes.2.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/recipes.3.png" alt="Alt text" width="200">
+
+- build-a-home.html
+
+<img src="assets/images/images-readme/build-a-home-1.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/build-a-home-2.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/build-a-home-3.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/build-a-home-4.png" alt="Alt text" width="200">
+
+- cleaning.html
+
+<img src="assets/images/images-readme/cleaning-1.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/cleaning-2.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/cleaning-3.png" alt="Alt text" width="200">
+
+- remedies.html
+
+
 ## Futur features 
 1. Newsletter Subscription: A "Join my newsletter" option for users to receive extra content.
 2. New Categories: Based on feedback from user interviews, we plan to expand the categories to cover more topics that align with the needs of the audience.
@@ -81,7 +105,76 @@ The design logic of this website was based on the most popular responses from ou
 ## How to View the Project
 - [View the deployed website] https://saraelizalde.github.io/Granny-s-Advice/
 
-## Process
+## Development Process
+- I started with Balsamiq to create a wireframe, aiming for a website that feels like a 2000s blog or an old book to trigger nostalgia.
+
+<img src="assets/images/images-readme/basilic.png" alt="Alt text" width="200">
+
+- Initially, I used a background image, knowing it might change based on user interviews. Placing the background was challenging, and after multiple attempts until the end of the project, I settled on: 
+background-size: contain;
+background-repeat: round;
+background-attachment: fixed;
+But here was the first vision:
+
+<img src="assets/images/images-readme/first-vision.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/original-palet.png" alt="Alt text" width="200">
+
+- I added a Bootstrap navbar, but struggled with responsiveness, it became too thin on smaller screens. Fixed this by modifying a Bootstrap class. And I made it collapse on medium screens and pushed nav-items to the right.
+
+- Centered the header image to resemble an old-fashioned book.
+Added media queries to make the background more visible on large screens and gaps between sections for a balanced look.
+<img src="assets/images/images-readme/second-vision-header.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/second-vision-category.png" alt="Alt text" width="200">
+
+- Based on user interviews feedback, I updated:
+Background: Changed to a floral pattern.
+Color Palette: Switched to green and pinks.
+Content Focus: Aligned with the most popular responses.
+
+<img src="assets/images/images-readme/final-palet.png" alt="Alt text" width="200">
+
+- Worked on cards for the main section, ensuring they fit visually with the header.
+Struggled with responsiveness but created a section class and set:
+ max-width: 90%; And this solved the problem.
+
+- Initially wanted a fixed footer to keep social media links always visible (important for the business plan).
+It was too thick, so I opted for a fixed navbar instead for easier navigation on small devices as there is a lot of scrolling.
+
+- Created recipe.html with a slightly different header layout to keep consistency while making it unique.
+Added a back button to return to categories but struggled to style it without affecting all links.
+Fixed it by specifically targeting : .card .card-body a { }
+
+- After adding content, buttons were misaligned due to varying text sizes.
+
+<img src="assets/images/images-readme/adding-images.png" alt="Alt text" width="200"> Fixed by adding Bootstrap classes: d-flex, flex-column and mt-auto. However, this made the buttons too wide. To fix this: width: auto;
+align-self: center;
+
+- Realized that recipe cards would be too long on small screens, so I attempted to use Bootstrap collapsible components.
+The collapse function worked but expanded all cards at once instead of individually.
+Tried multiple JavaScript and Bootstrap classes solutions but couldn't get an accordion effect. Decided to leave it as is and revisit when I improve my JavaScript skills.
+
+- Created cards without buttons for other pages. Researched content using ChatGPT & the internet. Struggled to find aesthetic images that fit the page’s vibe without being heavy to load on the screen, which ended up being the biggest performance problem.
+
+- Added shadows to cards and sections for a better visual effect.
+Initially struggled but ended up using Bootstrap.
+
+- Clicking the navbar internal link to the category section caused the fixed navbar to hide the section title.
+Tried margin and padding fixes, but they affected the page layout.
+Tried scroll-margin-top but couldn’t override some Bootstrap’s styles somewhere.
+So I endend up asking ChatGPT for JavaScript help, and the script worked only on the homepage but not when navigating from another page.
+Will revisit once I have more JavaScript experience.
+
+- Found an awkward two-to-one-to-two card layout at 829px width.
+Adjusted media queries to widen sections at that breakpoint.
+
+- The site looked too visually busy, so I:
+Changed green backgrounds to white for a cleaner look.
+Refined images and text alignment.
+Added borders to the navbar and footer for better separation.
+Added a favicon for branding. <img src="assets/images/images-readme/logo-tab.png" alt="Alt text" width="200"> 
+
+    Updated card design by removing margins around images for a more modern look but keeping rounded corners for a 60s aesthetic across the website.
+
 
 ## Credits
 - The JavaScript code for ensuring the Bootstrap mobile navbar collapses when navigating to in-page links comes from Code Institute.
