@@ -1,3 +1,5 @@
+
+
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Pinyon+Script&family=Playwrite+CA+Guides&family=Rochester&display=swap');
 
@@ -199,7 +201,8 @@ header h2 {
 }
 
 #header-cleaning .row{
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     padding-left: 40px;
     padding-right: 40px;
 }
