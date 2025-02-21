@@ -95,6 +95,9 @@ The design logic of this website was based on the most popular responses from ou
 ## Lighthouse results
 <img src="assets/images/images-readme/ligthouse.png" alt="Alt text" width="200">
 
+## CSS and HTML Validator
+Every pages of this website passes the HTML Validator and the CSS Validator
+
 
 ## Futur features 
 1. Newsletter Subscription: A "Join my newsletter" option for users to receive extra content.
