@@ -87,6 +87,14 @@ The design logic of this website was based on the most popular responses from ou
 
 - remedies.html
 
+<img src="assets/images/images-readme/remedies-1.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/remedies-2.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/remedies-3.png" alt="Alt text" width="200">
+<img src="assets/images/images-readme/remedies-4.png" alt="Alt text" width="200">
+
+## Lighthouse results
+<img src="assets/images/images-readme/ligthouse.png" alt="Alt text" width="200">
+
 
 ## Futur features 
 1. Newsletter Subscription: A "Join my newsletter" option for users to receive extra content.
