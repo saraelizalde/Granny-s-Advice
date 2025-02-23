@@ -54,6 +54,10 @@ a {
     color: var(--vert);
 }
 
+#audio::-webkit-media-controls-panel {
+    background-color: var(--baby-pink)
+}
+
 
 
 
