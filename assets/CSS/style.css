@@ -1,5 +1,3 @@
-
-
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Pinyon+Script&family=Playwrite+CA+Guides&family=Rochester&display=swap');
 
@@ -67,7 +65,7 @@ a {
 #navigation {
     background-color: var(--baby-pink);
     padding: 0px;
-    border-bottom: 1px solid #450029 ;
+    border-bottom: 1px solid #450029;
 }
 
 #navigation a {
@@ -96,7 +94,7 @@ header img {
     height: auto;
     border-radius: 12px;
     /*round corners*/
-    
+
 }
 
 header h1 {
@@ -153,10 +151,25 @@ header h2 {
     color: var(--baby-pink);
 }
 
+.card-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
 .card button {
     background-color: var(--baby-pink);
     border-color: var(--darker-pink);
     color: var(--darker-pink);
+    width: auto;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    margin-top: auto;
 }
 
 .card button:hover {
@@ -170,7 +183,7 @@ header h2 {
     margin-top: 1.5rem;
 }
 
-.card-title{
+.card-title {
     font-weight: 600;
 }
 
@@ -198,15 +211,17 @@ header h2 {
 
 
 
+
+
 /*Cleaning page*/
 
-#header-cleaning{
+#header-cleaning {
     margin-top: 20px;
 }
 
-#header-cleaning .row{
+#header-cleaning .row {
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -219,7 +234,7 @@ header h2 {
 footer {
     background-color: var(--baby-pink);
     padding: 2rem;
-    border-top: 1px solid #450029 ;
+    border-top: 1px solid #450029;
 }
 
 #footer a {
@@ -234,6 +249,7 @@ footer {
     font-size: large;
     color: var(--darker-pink);
 }
+
 
 
 
