@@ -19,7 +19,6 @@ body {
     font-family: var(--primary-font);
     background-image: url(../images/background-flowers.jpg);
     background-size: contain;
-    /*to make sure the background image is not too big*/
     background-repeat: round;
     background-attachment: fixed;
     margin: 0;
@@ -36,7 +35,6 @@ a {
     max-width: 90%;
     margin: 0 auto;
     border-radius: 12px;
-    /*Round corners*/
     background-color: var(--white);
     padding-bottom: 2rem;
     padding-top: 1rem;
@@ -83,7 +81,6 @@ a {
 
 
 
-
 /* Header */
 #header {
     margin-top: 20px;
@@ -93,8 +90,6 @@ header img {
     max-width: 100%;
     height: auto;
     border-radius: 12px;
-    /*round corners*/
-
 }
 
 header h1 {
@@ -110,13 +105,11 @@ header h2 {
 
 
 
-
 /* Categories and cards */
 .card {
     max-width: 17rem;
     padding: 0px;
     border-radius: 12px;
-    /*round corners*/
     -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     overflow: hidden;
@@ -193,7 +186,6 @@ header h2 {
 
 
 
-
 /*Follow us*/
 #follow-us .display-2 {
     color: var(--darker-pink);
@@ -214,7 +206,6 @@ header h2 {
 
 
 /*Cleaning page*/
-
 #header-cleaning {
     margin-top: 20px;
 }
@@ -260,6 +251,5 @@ footer {
 
     .section {
         max-width: 70%;
-        /* More narrow on larger screens to show more background*/
     }
 }
