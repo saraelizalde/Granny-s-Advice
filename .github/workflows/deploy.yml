@@ -1,0 +1,21 @@
+name: Deploy to GitHub Pages
+
+permissions:
+  id-token: write  # <-- Add this to grant necessary permissions
+  contents: read   # <-- Allows reading repo contents
+
+on:
+  push:
+    branches:
+      - main  # Runs when you push to the main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
