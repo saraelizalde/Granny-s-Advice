@@ -30,12 +30,7 @@ The design of the website blends modern, user-friendly navigation with nostalgic
 The primary business goal of Granny's Advice is to increase social media traffic. By encouraging users to engage with the website’s content and follow us on social media thanks to call to actions. The website will strategically use keywords to make it easier for people to find the content they need, whether searching for life tips or simply enjoying a nostalgic escape. In the future, we plan to implement monetization strategies such as advertisements or prenium content.
 
 ## Target audiance
-The target audience for Granny's Advice primarily consists of young adults between the ages of 18-35. These individuals are likely transitioning to independent living and may be looking for affordable, practical tips on managing daily life, chores, and budgeting. Additionally, the nostalgic aesthetic appeals to younger generations who are drawn to vintage or comforting content, while older generations will recognize and appreciate the familiar feel of "grandmother's advice."
-
-## Why they are the target:
-- Budget-Conscious: Many young adults are navigating their first experiences with managing finances and household tasks. They seek affordable, practical advice to make everyday life easier.
-- Nostalgia: Younger generations enjoy nostalgic content, especially related to family, comfort, and simpler times. This trend is popular on social media and resonates with this demographic.
-- Familiar Aesthetic: The vintage, grandmotherly design appeals to users who seek a sense of comfort and emotional connection, drawing them in with warm, timeless visuals.
+The target audience for Granny's Advice primarily consists of young adults between the ages of 18-35. These individuals are likely transitioning to independent living and may be looking for affordable, practical tips on managing daily life, chores, and budgeting. Additionally, the nostalgic aesthetic appeals to younger generations who are drawn to vintage or comforting content, while older generations will recognize and appreciate the familiar feel of "grandmother's advice." This nostalgic trend is popular on social media and resonates with this demographic. We implemented emotional triggers throughout the website based on insights from user interview results we received to touch this audiance.
 
 ## User intervew
 The design logic of this website was based on the most popular responses from our user interview. These insights guided us in choosing the preferred layout, emotional triggers, and visual elements (such as colors and patterns) that evoke memories of their grandmothers. Additionally, it helped us determine the content that would be most useful and appealing, attracting visitors to our site.
@@ -63,10 +58,12 @@ The design logic of this website was based on the most popular responses from ou
 5. Contact Us Footer: Provides contact details and social media links for users to get in touch with Granny, ask questions, or seek advice.
 <img src="assets/images/images-readme/footer.png" alt="Alt text" width="200">
 
+6. Audio player in remedies.html, cleaning.html, build-a-home.html and recipes.html. The audio player enhances user immersion by providing theme-matching songs that align with the content of each page. With controls to give them the options of playing it and th volume.
+<img src="assets/images/images-readme/audio-player.png" alt="Alt text" width="200">
 
 ## All the pages
 - The Home page seen above.
-- recipes.html
+- recipes.html with collapse buttons
 
 <img src="assets/images/images-readme/recipes.1.png" alt="Alt text" width="200">
 <img src="assets/images/images-readme/recipes.2.png" alt="Alt text" width="200">
@@ -94,10 +91,10 @@ The design logic of this website was based on the most popular responses from ou
 
 ## Lighthouse results
 <img src="assets/images/images-readme/ligthouse.png" alt="Alt text" width="200">
+Due to the large number of images, performance had the lowest scores on the pages. However, Accessibility and Best Practices reached a score of 100 on every page.
 
 ## CSS and HTML Validator
 Every pages of this website passes the HTML Validator and the CSS Validator
-
 
 ## Futur features 
 1. Newsletter Subscription: A "Join my newsletter" option for users to receive extra content.
@@ -146,7 +143,7 @@ Content Focus: Aligned with the most popular responses.
 
 - Worked on cards for the main section, ensuring they fit visually with the header.
 Struggled with responsiveness but created a section class and set:
- max-width: 90%; And this solved the problem.
+ max-width: 90%;
 
 - Initially wanted a fixed footer to keep social media links always visible (important for the business plan).
 It was too thick, so I opted for a fixed navbar instead for easier navigation on small devices as there is a lot of scrolling.
@@ -164,7 +161,7 @@ align-self: center;
 The collapse function worked but expanded all cards at once instead of individually.
 Tried multiple JavaScript and Bootstrap classes solutions but couldn't get an accordion effect. Decided to leave it as is and revisit when I improve my JavaScript skills.
 
-- Created cards without buttons for other pages. Researched content using ChatGPT & the internet. Struggled to find aesthetic images that fit the page’s vibe without being heavy to load on the screen, which ended up being the biggest performance problem.
+- Created cards without buttons for other pages. Struggled to find aesthetic images that fit the page’s vibe without being heavy to load on the screen, which ended up being the biggest performance problem.
 
 - Added shadows to cards and sections for a better visual effect.
 Initially struggled but ended up using Bootstrap.
@@ -185,6 +182,8 @@ Added borders to the navbar and footer for better separation.
 Added a favicon for branding. <img src="assets/images/images-readme/logo-tab.png" alt="Alt text" width="200"> 
 
     Updated card design by removing margins around images for a more modern look but keeping rounded corners for a 60s aesthetic across the website.
+
+- I struggled with GitHub as some commits didn’t go through. I tried creating new files based on online research to repair the workflow but ended up deleting them, after which the commits were successfully pushed.
 
 
 ## Credits
